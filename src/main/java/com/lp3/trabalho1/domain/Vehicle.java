@@ -34,13 +34,13 @@ public class Vehicle {
     @Column(length = 45)
     private String plate;
 
-    @Column
+    @Column(name = "date_created")
     private Date createdDate;
 
-    @Column
+    @Column(name = "date_updated")
     private Date updatedDate;
 
-    @Column
+    @Column(name = "custom_fields")
     private String customFields;
 
     @Column

@@ -27,6 +27,6 @@ public class Company {
     @Column
     private String description;
 
-    @Column
+    @Column(name = "created_date")
     private Date createdDate;
 }
